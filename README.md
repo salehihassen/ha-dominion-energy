@@ -5,9 +5,9 @@
 <h1 align="center">Dominion Energy for Home Assistant</h1>
 
 <p align="center">
-  <a href="https://github.com/YeomansIII/ha-dominion-energy/releases"><img src="https://img.shields.io/github/v/release/YeomansIII/ha-dominion-energy?style=flat-square" alt="GitHub Release"></a>
-  <a href="https://github.com/YeomansIII/ha-dominion-energy/blob/main/LICENSE"><img src="https://img.shields.io/github/license/YeomansIII/ha-dominion-energy?style=flat-square" alt="License"></a>
-  <a href="https://github.com/YeomansIII/ha-dominion-energy/issues"><img src="https://img.shields.io/github/issues/YeomansIII/ha-dominion-energy?style=flat-square" alt="Issues"></a>
+  <a href="https://github.com/salehihassen/ha-dominion-energy/releases"><img src="https://img.shields.io/github/v/release/salehihassen/ha-dominion-energy?style=flat-square" alt="GitHub Release"></a>
+  <a href="https://github.com/salehihassen/ha-dominion-energy/blob/main/LICENSE"><img src="https://img.shields.io/github/license/salehihassen/ha-dominion-energy?style=flat-square" alt="License"></a>
+  <a href="https://github.com/salehihassen/ha-dominion-energy/issues"><img src="https://img.shields.io/github/issues/salehihassen/ha-dominion-energy?style=flat-square" alt="Issues"></a>
   <img src="https://img.shields.io/badge/Home%20Assistant-blue?style=flat-square&logo=homeassistant&logoColor=white" alt="Home Assistant">
   <a href="https://github.com/hacs/integration"><img src="https://img.shields.io/badge/HACS-Custom-orange?style=flat-square" alt="HACS"></a>
 </p>
@@ -154,8 +154,8 @@ This is a public client identifier embedded in the Dominion Energy web app. It c
 
 ## Support
 
-- [Report Issues](https://github.com/YeomansIII/ha-dominion-energy/issues)
-- [dompower Library](https://github.com/YeomansIII/dompower)
+- [Report Issues](https://github.com/salehihassen/ha-dominion-energy/issues)
+- [dompower Library](https://github.com/salehihassen/dompower)
 
 ## License
 

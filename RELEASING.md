@@ -25,7 +25,7 @@ Releases create a `dominion_energy.zip` asset attached to the GitHub release, wh
    ```bash
    gh release create vX.Y.Z --title "vX.Y.Z" --notes "Release notes here"
    ```
-   Or create via the GitHub UI at https://github.com/YeomansIII/ha-dominion-energy/releases/new.
+   Or create via the GitHub UI at https://github.com/salehihassen/ha-dominion-energy/releases/new.
 
 6. **The `Release` workflow runs automatically:**
    - Checks out the repo
@@ -33,7 +33,7 @@ Releases create a `dominion_energy.zip` asset attached to the GitHub release, wh
    - Creates `dominion_energy.zip` from `custom_components/dominion_energy/`
    - Attaches the ZIP to the GitHub release
 
-7. **Verify** the release asset is attached at https://github.com/YeomansIII/ha-dominion-energy/releases.
+7. **Verify** the release asset is attached at https://github.com/salehihassen/ha-dominion-energy/releases.
 
 ## Versioning
 
