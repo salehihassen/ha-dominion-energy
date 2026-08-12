@@ -233,7 +233,11 @@ class DominionEnergySensor(CoordinatorEntity[DominionEnergyCoordinator], SensorE
         key = self.entity_description.key
 
         # Add data_date for daily and interval sensors
-        if key in ("daily_usage", "daily_cost", "latest_interval_usage"):
+        if key in (  # noqa: SIM102 - keep the sensor/date checks distinct
+            "daily_usage",
+            "daily_cost",
+            "latest_interval_usage",
+        ):
             if self.coordinator.data.data_date:
                 attrs["data_date"] = self.coordinator.data.data_date.isoformat()
 

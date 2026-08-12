@@ -2,9 +2,9 @@
 
 from __future__ import annotations
 
+import logging
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
-import logging
 
 from dompower import (
     ApiError,
@@ -18,7 +18,6 @@ from dompower import (
     TFARequiredError,
     TokenExpiredError,
 )
-
 from homeassistant.components.recorder import get_instance
 from homeassistant.components.recorder.models import (
     StatisticData,
@@ -67,7 +66,6 @@ from .const import (
     UPDATE_INTERVAL_MINUTES,
 )
 from .rates import VA_SCHEDULE_1, calculate_schedule1_interval_cost
-
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -200,7 +198,7 @@ class DominionEnergyCoordinator(DataUpdateCoordinator[DominionEnergyData]):
         except CannotConnectError as err:
             _LOGGER.warning("Auto-reauth failed - connection error: %s", err)
             return False
-        except Exception as err:
+        except Exception as err:  # noqa: BLE001 - fall back to manual reauth
             _LOGGER.warning("Auto-reauth failed unexpectedly: %s", err)
             return False
 
