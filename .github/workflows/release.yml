@@ -31,7 +31,7 @@ jobs:
 
       - name: Create ZIP archive
         run: |
-          cd custom_components
+          cd custom_components/dominion_energy
           zip -r dominion_energy.zip dominion_energy
 
       - name: Upload release asset
