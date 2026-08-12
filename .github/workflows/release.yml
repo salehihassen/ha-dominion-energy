@@ -31,8 +31,8 @@ jobs:
 
       - name: Create ZIP archive
         run: |
-          cd custom_components
-          zip -r dominion_energy.zip dominion_energy
+          cd custom_components/dominion_energy
+          zip -r ../dominion_energy.zip .
 
       - name: Upload release asset
         uses: softprops/action-gh-release@v2
